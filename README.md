@@ -59,3 +59,12 @@ Most scripts read data files (oracle/, evals/) and adapter checkpoints (runs/) n
 - A larger-model variant (e.g., Gemma-27B) is an untested hypothesis only; we make no claims of benefit.
 - Robustness against control-token override attacks: approximately 1 in 7 attempts (13.8% targeted) succeeded against the inline-decision design.
 - The decision head is weaker out-of-domain; retraining on mixed OOD data or per-source calibration may help, but was not tested.
+
+
+---
+
+## Support
+
+If you find this useful, consider buying me a coffee to support continued development:
+
+<a href="https://buymeacoffee.com/adem.rguez" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50" style="border-radius: 8px;"></a>
